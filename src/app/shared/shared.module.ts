@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SpinnerComponent } from './spinner/spinner.component';
+import { UserModule } from '../user/user.module';
 
 //In Shared module we are going to have everything that we are going to reuse, like buttons, spinners, loaders, pop-up
 //so, everything that can be shared or called by many places, many components
